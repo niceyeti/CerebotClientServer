@@ -1,0 +1,2 @@
+all: ; g++ UiClient.cpp -o uiClient --std=c++0x;
+g++ CerebotClient.cpp View.cpp Comm.cpp Ai.cpp --std=c++0x;
